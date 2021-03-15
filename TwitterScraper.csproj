@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Penguin.Web.JsonClient" Version="5.0.2-TABDXT3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\Penguin\Repositories\Penguin.Web.Http\Penguin.Web.Http.csproj" />
+  </ItemGroup>
+
+</Project>
